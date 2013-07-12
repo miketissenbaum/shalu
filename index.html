@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+
+<script type="text/javascript">
+			
+	jQuery(function($){
+		
+		$.supersized({
+			// Functionality
+			slide_interval          :   3000,		// Length between transitions
+			transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+			transition_speed		:	700,		// Speed of transition
+													   
+			// Components							
+			slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+			slides: [
+						{image : 'img/tibet_1.jpg'},
+						{image : 'img/tibet_2.jpg'},
+						{image : 'img/tibet_3.jpg'}
+			]
+		});
+	});
+
+</script>
+
+</head>
+
+<body>
+	<header>
+		<div class="title">
+			<img src="img/wordmark.png" alt="Shalu Gold + Statue + Text" class="wordmark">
+		</div>
+		<nav class="header">
+			<ul>
+				<li><a href="#">Place</a></li>
+				<li><a href="#">Space</a></li>
+				<li><a href="#">Context</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="infoNavBox">
+		<img src="img/wordmark.png" alt="Shalu Gold + Statue + Text" class="infoWordmark">
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat massa diam, at molestie odio. Sed nisi diam, dignissim at vestibulum vitae, vulputate ac est 
+		</p>
+		<div id="infoLink">
+			<img src="img/placeImage.png" alt="Place" class="infoImage">
+			<button class="infoButton"><img src="img/placeButton.png" alt="Place"></button>
+		</div>
+		<div id="infoLink">
+			<img src="img/spaceImage.png" alt="Place" class="infoImage">
+			<button class="infoButton"><img src="img/spaceButton.png" alt="Place"></button>
+		</div>
+	</div>
+	<footer>
+		<div id="links">
+			<ul class="aboutLinks">
+				<li>
+					<a href="#">About the Project</a>
+				</li>
+				<li>
+					<a href="#">Credits</a>
+				</li>
+				<li>
+					<a href="#">Bibliography</a>
+				</li>
+			</ul>
+			<ul class="navLinks">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Space</a>
+				</li>
+				<li>
+					<a href="#">Place</a>
+				</li>
+				<li>
+					<a href="#">Context</a>
+				</li>
+		</div>
+		<p>2013 University of Toronto Department for the Study of Religion</p>
+	</footer>
+
+</body>
+</html>
