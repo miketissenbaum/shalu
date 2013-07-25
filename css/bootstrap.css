@@ -657,7 +657,7 @@ p {
 .intro-text {
   color: #84be46;
   font-size: 18px;
-  margin: 15px 0px;
+  margin: 15px 0px 25px 0px
 }
 
 .lead {
@@ -6429,6 +6429,16 @@ footer ul.navLinks li a {
 
 footer p {
   text-align: center;
-  font-size: .3em;
+  font-size: .6em;
   margin-top: 4px;
+  color: gray;
 }
+
+footer ul.navLinks li a:hover,
+footer ul.navLinks li a:focus,
+footer ul.aboutLinks li a:hover,
+footer ul.aboutLinks li a:focus{
+  text-decoration: underline;
+  color: black; 
+}
+
