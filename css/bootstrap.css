@@ -222,6 +222,7 @@ textarea {
 }
 
 body {
+  height: 100%;
   margin: 0;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'Crete Round', serif;
@@ -4077,7 +4078,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs > li {
-  width: 18.5%;
+  width: 18.38%;
   text-align: center;
   margin-bottom: -1px;
   border: 1px solid #9c9797;
@@ -4103,7 +4104,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs > li:last-child {
-  width: 25.1%;
+  width: 25.6%;
   border-right: 1px solid #9c9797;
     -webkit-border-radius: 0px 4px 0 0;
     -moz-border-radius: 0px 4px 0 0;
@@ -6116,11 +6117,11 @@ a.badge:focus {
 
 .carousel-control {
   position: absolute;
-  top: 50%;
+  top: 175px;
   left: 15px;
   width: 40px;
   height: 40px;
-  margin-top: -20px;
+  /*margin-top: -20px;*/
   font-size: 60px;
   font-weight: 100;
   line-height: 34px;
@@ -6318,6 +6319,7 @@ a.badge:focus {
   /*border: 2px solid red;*/
   margin-left:auto;
   margin-right:auto;
+  margin-bottom: 40px;
 }
 
 .preview-image {
@@ -6332,19 +6334,21 @@ a.badge:focus {
 .preview-items p{
   color: #84be46;
   text-align: center;
+  margin-top: 5px;
 }
 
 .image-display {
-  background-color: #eaeaea;
+  background-color: transparent;
   height:370px;
   width:95%;
   float:left;
   border: 5px solid #e2dede;
+  overflow: hidden;
 }
 
 .image-display img{
   display: block;
-  max-height: 370px;
+  /*max-height: 370px;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -6376,6 +6380,14 @@ footer {
   background-image: url(../img/bkg-Footer-Tile.png);
   background-repeat: repeat-x;
 }*/
+
+#mainPage{
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:100px;
+  background-color: #FFF;
+}
 
 footer #links{
   width:65%;
@@ -6441,5 +6453,26 @@ footer ul.aboutLinks li a:hover,
 footer ul.aboutLinks li a:focus{
   text-decoration: underline;
   color: black; 
+}
+
+#infoLink .infoButton img {
+width: 30px;
+padding: 0 6px 4px 0px;
+}
+
+#infoLink .infoButton img.Space {
+width: 19px;
+height: 19px;
+padding: 0 6px 4px 0px;
+}
+
+#infoLink .infoButton {
+width: 101.5%;
+border-radius: 3px;
+border: 1px solid #808080;
+background: #fff;
+padding: 1px 6px 0 0;
+font-weight: bold;
+height: 25px;
 }
 

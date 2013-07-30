@@ -1,0 +1,42 @@
+{ 
+  "name": "GosumLhakhang",
+  "pictures": 
+   [ 
+   	 { "photo": "img/13thCentury/GosumLhakhang/IMG_0574.jpg",
+       "name": "IMG_0574.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0582.jpg",
+       "name": "IMG_0582.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0584.jpg",
+       "name": "IMG_0584.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0605.jpg",
+       "name": "IMG_0605.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0613.jpg",
+       "name": "IMG_0613.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0615.jpg",
+       "name": "IMG_0615.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0619.jpg",
+       "name": "IMG_0619.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0621.jpg",
+       "name": "IMG_0621.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0625.jpg",
+       "name": "IMG_0625.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0657.jpg",
+       "name": "IMG_0657.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0672.jpg",
+       "name": "IMG_0672.jpg"
+       },
+     { "photo": "img/13thCentury/GosumLhakhang/IMG_0673.jpg",
+       "name": "IMG_0673.jpg"
+       } 
+   ] 
+}

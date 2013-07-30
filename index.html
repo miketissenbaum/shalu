@@ -3,45 +3,64 @@
 
 <html>
 <head>
+	<meta charset="utf-8">
+	<title>Shalu Golden Temple Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
 
-<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+	<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+	    <style>
+	      body {
+	      /*  padding-top: 60px;*/ /* 60px to make the container go all the way to the bottom of the topbar */
+	      }
+	       .container-narrow {
+	        margin: 0 auto;
+	        max-width: 960px;
+	      }
+	    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
-<script type="text/javascript">
-			
-	jQuery(function($){
-		
-		$.supersized({
-			// Functionality
-			slide_interval          :   3000,		// Length between transitions
-			transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-			transition_speed		:	700,		// Speed of transition
-													   
-			// Components							
-			slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-			slides: [
-						{image : 'img/tibet_1.jpg'},
-						{image : 'img/tibet_2.jpg'},
-						{image : 'img/tibet_3.jpg'}
-			]
-		});
-	});
 
-</script>
 
 </head>
 
 <body>
-	<header>
+    <div class="navbar-place">
+    	<div class="navbar">	
+	      <div class="navbar-inner">
+	        <div class="container">
+	        	<div class="container-narrow">
+		          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="brand" href="index.html"><img src="img/GTS-logo-home-grey.png"></a>
+		          <div class="nav-collapse collapse">
+		            <ul class="nav">
+		              <li><a href="place.html">Place</a></li>
+		              <li><a href="#about">Space</a></li>
+		              <li><a href="#contact">Context</a></li>
+		            </ul>
+		          </div><!--/.nav-collapse -->
+		        </div>
+	        </div>
+	    </div>
+      </div>
+    </div>
+
+
+
+<!-- 	<header>
 		<div class="title">
-			<img src="img/wordmark.png" alt="Shalu Gold + Statue + Text" class="wordmark">
+			<img src="img/GTS-logo-home-grey.png" alt="Shalu Gold + Statue + Text" class="wordmark">
 		</div>
 		<nav class="header">
 			<ul>
@@ -50,22 +69,23 @@
 				<li><a href="#">Context</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header> -->
 
 	<div id="infoNavBox">
-		<img src="img/wordmark.png" alt="Shalu Gold + Statue + Text" class="infoWordmark">
+		<img src="img/GTS-logo-home-grey.png" alt="Shalu Gold + Statue + Text" class="infoWordmark">
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat massa diam, at molestie odio. Sed nisi diam, dignissim at vestibulum vitae, vulputate ac est 
 		</p>
 		<div id="infoLink">
 			<img src="img/placeImage.png" alt="Place" class="infoImage">
-			<button class="infoButton"><img src="img/placeButton.png" alt="Place"></button>
+			<a href="/shalu/place.html"><button class="infoButton"><img src="img/iconPlace_on.png" alt="Place">Place</button></a>
+
 		</div>
 		<div id="infoLink">
 			<img src="img/spaceImage.png" alt="Place" class="infoImage">
-			<button class="infoButton"><img src="img/spaceButton.png" alt="Place"></button>
+			<button class="infoButton"><img class="Space" src="img/iconSpace_on.png" alt="Space">Space</button>
 		</div>
 	</div>
-	<footer>
+	<footer id="mainPage">
 		<div id="links">
 			<ul class="aboutLinks">
 				<li>
@@ -80,10 +100,10 @@
 			</ul>
 			<ul class="navLinks">
 				<li>
-					<a href="#">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="#">Space</a>
+					<a href="space.html">Space</a>
 				</li>
 				<li>
 					<a href="#">Place</a>
@@ -92,8 +112,42 @@
 					<a href="#">Context</a>
 				</li>
 		</div>
-		<p>2013 University of Toronto Department for the Study of Religion</p>
+		<p>© 2013 University of Toronto Department for the Study of Religion</p>
 	</footer>
+
+	<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+
+	<script type="text/javascript">
+				
+		jQuery(function($){
+			
+			$.supersized({
+				// Functionality
+				slide_interval          :   3000,		// Length between transitions
+				transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+				transition_speed		:	700,		// Speed of transition
+														   
+				// Components							
+				slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+				slides: [
+							{image : 'img/home/bkg-img-home1.jpg'},
+							{image : 'img/home/bkg-img-home2.jpg'},
+							{image : 'img/home/bkg-img-home3.jpg'},
+							{image : 'img/home/bkg-img-home4.jpg'},
+							{image : 'img/home/bkg-img-home5.jpg'}
+				]
+			});
+		});
+
+	</script>
+
 
 </body>
 </html>
